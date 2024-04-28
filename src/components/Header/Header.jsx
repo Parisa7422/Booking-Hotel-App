@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
 import { MdLocationOn } from "react-icons/md";
 import { HiCalendar, HiMinus, HiPlus, HiSearch } from "react-icons/hi";
-import useOutsideClick from "../Hooks/useOutsideClick";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { DateRange } from "react-date-range";
 import { format } from "date-fns";
+import useOutsideClick from "../../Hooks/useOutsideClick";
 
 function Header() {
   const [destination, setDestination] = useState("");
